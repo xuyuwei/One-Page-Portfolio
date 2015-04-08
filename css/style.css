@@ -1,0 +1,68 @@
+/*!
+ * Start Bootstrap - Logo Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top:10vh; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background: #EEEEEE;
+    padding-bottom: 10vh;
+}
+
+
+@font-face {
+  font-family: 'Code';
+  src: url('../fonts/code/CODE-Light.otf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Code';
+  src: url('../fonts/code/CODE-Bold.otf');
+  font-weight: 700;
+}
+
+.code-font {
+	font-family: 'Code';
+	font-weight: 300;
+}
+
+.code-bold{
+	font-family: 'Code';
+	font-weight: 700;
+}
+
+/* header */
+
+.content p{
+	font-family: 'Lato';
+}
+
+.links{
+	margin-top: 2rem;
+}
+
+
+
+/*projects */
+.project-pic{
+	background: #FFF;
+	width: 100%;
+    padding-top: 75%; /* defines aspect ratio */
+    position: relative;
+
+}
+
+.project-pic .inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.margin-small{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
